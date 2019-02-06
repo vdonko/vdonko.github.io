@@ -1,0 +1,56 @@
+/*Formatting body.*/
+body {
+  background-color: white;
+}
+/*Formatting header 1*/
+h1 {
+  color: maroon
+  ;
+  background-color: lightpink;
+  font-family: "Georgia";
+	font-size: 300%;
+	width: 600px;
+	font-style: bold;
+}
+/*Formatting header 2*/
+h2 {
+  color: black;
+  font-family: "verdana","Georgia", ;
+	font-size: 150%;
+	width: 600px;
+}
+/*Formatting paragraph*/
+p {
+  color: black;
+  font-family: verdana;
+	font-size: 100%;
+}
+/*Table*/
+table{
+	border: 2px;
+	border-style: solid;
+}
+
+tr{
+	border: 2px;
+	border-style: solid;
+}
+
+th{
+	border: 2px;
+	border-style: solid;
+}
+
+thead{
+	border: 2px;
+	border-style: solid;
+}
+
+td{
+	border: 2px;
+	border-style: solid;
+}
+/*Rotating image*/
+img {
+transform: rotate(90deg);
+}

@@ -1,0 +1,118 @@
+<html>
+	<head> 
+	<link rel="stylesheet" href="t2style.css">
+<!-- <p>This defines the top of the web page.</p> -->
+	<title>Victoria Donko</title> 
+<!-- <p>This is the title of the page.</p> -->
+
+	</head>
+	<body> 
+		<h2>Victoria Donko</h2>
+<!-- <p>This is the body of the page.</p> -->
+		<h1>About</h1> 
+			<!-- <p>This is a picture of me.</p> -->
+<img src= "viclab3.jpg" style="float:right;width:550px;height:350px;">
+
+<!-- This is a blue header. -->
+<!-- This is a paragraph. -->
+			<p>I am a third year Geomatics Engineering students at York University in Toronto, Canada.</p>
+		<h1>Courses</h1> 
+			<p>Here are some courses I am taking this year: </p>
+		<table>
+		<!-- Table -->
+		<thead>
+			<tr>
+			<!-- Titles for table, with appropriate style formatting. NOTE: Some formatting done in .css file. -->
+				<th style="background-color:#EFF8FB;">Course Number</th>
+				<th style="background-color:#EFF8FB;">Course Title</th>
+				<th style="background-color:#EFF8FB;">Semester Taken</th>
+			</tr>
+			<!-- Creating header that spans 3 columns -->
+			<th colspan=3>Current Courses</th>
+		</thead>
+			<tr>	
+				<td style="background-color:#EFF8FB;color:darkgreen;">ESSE4600</td>
+				<td style="background-color:#EFF8FB;color:darkgreen;">GIS 2</td>
+				<td style="background-color:#EFF8FB;color:darkgreen;">Winter 2019</td>
+				</font>
+			</tr>
+			<tr>
+				<td><font color = "darkgreen">ESSE 3650</font></td>
+				<td>Photogrammetry</td>
+				<td>Winter 2019</td>
+			</tr>
+			<tr>
+				<td style="background-color:#EFF8FB;color:darkgreen;">ESSE 3640</td>
+				<td style="background-color:#EFF8FB;">Geodetic Surveys</td>
+				<td style="background-color:#EFF8FB;">Winter 2019</td>
+			</tr>
+			<tr>
+			<td><font color = "darkgreen">ESSE 3020</font></td>
+				<td>Global Geophysics and Geodesy</td>
+				<td>Winter 2019</td>
+			</tr>
+			<tr>
+				<td style="background-color:#EFF8FB;color:darkgreen;">ESSE 3670</td>
+				<td style="background-color:#EFF8FB;">GNSS</td>
+				<td style="background-color:#EFF8FB;">Winter 2019</td>
+			</tr>
+			<tr>	
+				<td><font color = "darkgreen">ESSE 4670</font></td>
+				<td>Survey Law</td>
+				<td>Winter 2019</td>
+			</tr>
+			<tr>	
+				<td style="background-color:#EFF8FB;color:darkgreen;">ESSE 4670</td>
+				<td style="background-color:#EFF8FB;">Survey Law</td>
+				<td style="background-color:#EFF8FB;">Winter 2019</td>
+			</tr>
+			<th colspan=3>Past Courses</th>
+			<tr>	
+				<td style="background-color:#EFF8FB;color:#2E2EFE;">ESSE 3600</td>
+				<td style="background-color:#EFF8FB;">GIS and Spatial Analysis</td>
+				<td style="background-color:#EFF8FB;">Fall 2018</td>
+			</tr>
+			<tr>	
+				<td><font color = "#2E2EFE">ESSE 4660</font></td>
+				<td>Cadastral Studies</td>
+				<td>Fall 2018</td>
+			</tr>
+			<tr>	
+				<td style="background-color:#EFF8FB;color:#2E2EFE;">ESSE 4660</td>
+				<td style="background-color:#EFF8FB;">Cadastral Studies</td>
+				<td  style="background-color:#EFF8FB;">Fall 2018</td>
+			</tr>
+			<tr>	
+				<td><font color = "darkblue">ESSE 3610</font></td>
+				<td>Geodetic Concepts</td>
+				<td>Fall 2018</td>
+			</tr>
+			<tr>	
+				<td style="background-color:#EFF8FB;color:#2E2EFE;">ESSE 4220</td>
+				<td style="background-color:#EFF8FB;">Remote Sensing</td>
+				<td  style="background-color:#EFF8FB;">Fall 2018</td>
+			</tr>
+			<tr>	
+				<td><font color = "#2E2EFE">ESSE 4020</font></td>
+				<td>Time Series and Spectral Analysis</td>
+				<td>Fall 2018</td>
+			</tr>
+	</table>
+
+<!-- This is another header. -->
+	<h1>Interests</h1>
+	<!-- This is another paragraph. -->
+		<p> My interests include playing guitar, cooking, and exercising.</p> 
+	<h1>Subscribe to newsletter</h1>
+		<p>Please subscribe below!</p>
+<!-- This is the form to subscribe to the website. -->
+<!-- Using the JavaScript confirmation function -->
+		<form onSubmit="if(!confirm('You have subcribed!')){return false;}">
+				Name: <input type="text" name="Name"><br>	<!-- User inputn for name. -->
+				Email: <input type="text" name="Email"><br> <!-- User input for e-mail. -->
+				<input type="submit" value="Submit">
+		</form>
+			
+
+	</body>
+</html>
